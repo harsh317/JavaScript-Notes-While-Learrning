@@ -1,7 +1,7 @@
-// // alert('harshita')
+// // alert('Helo')
 
 // // Variables
-// var harsh = 'Harsh';
+// var harsh = 'Harsh';  // const in newer js
 // console.log(harsh);
 
 // var someno = 11;
@@ -149,17 +149,17 @@ let ifage = 10
 if ((ifage >= 18) && (ifage <= 30)) {
     console.log(ifage)
 } else {
-    console.log('harshita is mad')
+    console.log('Age is smaller than 18')
 }
 */
 // switch Statements
 /*
 switch (7) {
     case 0:
-        text = 'weekend';
+        text = 'Helo1';
         break;
     case 7:
-        text = 'Moti';
+        text = 'Helo2';
         break;
     default:
         text = 'default';
