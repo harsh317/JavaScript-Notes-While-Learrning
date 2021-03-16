@@ -154,11 +154,11 @@ if ((ifage >= 18) && (ifage <= 30)) {
 */
 // switch Statements
 /*
-switch (7) {
-    case 0:
-        text = 'Helo1';
-        break;
-    case 7:
+switch (7) {  // statement on the bases of which case will work. '7' is the case here 
+    case 0:          // If case is 0 then do
+        text = 'Helo1'; //                something
+        break;       // break the statement to go ahead rather than going to default
+    case 7:   // same applies here
         text = 'Helo2';
         break;
     default:
