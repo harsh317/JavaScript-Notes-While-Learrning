@@ -1,7 +1,7 @@
-// // alert('harshita')
+// // alert('Helo')
 
 // // Variables
-// var harsh = 'Harsh';
+// var harsh = 'Harsh';  // const in newer js
 // console.log(harsh);
 
 // var someno = 11;
@@ -26,7 +26,6 @@ function fun() {
     alert('function is beng called');
 }
 // fun()
-
 // hello functon basics
 function hello() {
     var name = prompt('Whats Ur Name?');
@@ -34,13 +33,11 @@ function hello() {
     console.log(result);
 }
 // hello()
-
 // function with arguments
 function withArguments(num1, num2) {
     console.log(num1 + num2);
 }
 //withArguments(10, 45)
-
 // better hello functions
 function hellobetter(yourname) {
     var result = 'Heloo ' + yourname;
@@ -100,11 +97,9 @@ fruits = new Array('banana', 'orange', 'apple', 'blueberry')
 console.log(fruits[1]);
 fruits[0] = 'mango';
 console.log(fruits);
-
 for (let num = 0; num < fruits.length; num++) {
     console.log(fruits[num]);
 }
-
 // array common methods
 console.log('To String:', fruits.toString()); // convert  array to string
 console.log(fruits.join('---****---')); // Add something in each item in a array
@@ -149,17 +144,17 @@ let ifage = 10
 if ((ifage >= 18) && (ifage <= 30)) {
     console.log(ifage)
 } else {
-    console.log('harshita is mad')
+    console.log('Age is smaller than 18')
 }
 */
 // switch Statements
 /*
-switch (7) {
-    case 0:
-        text = 'weekend';
-        break;
-    case 7:
-        text = 'Moti';
+switch (7) {  // statement on the bases of which case will work. '7' is the case here 
+    case 0:          // If case is 0 then do
+        text = 'Helo1'; //                something
+        break;       // break the statement to go ahead rather than going to default
+    case 7:   // same applies here
+        text = 'Helo2';
         break;
     default:
         text = 'default';
