@@ -1,7 +1,7 @@
 // An object can thought of as a dictionary in python i.e key value pairs
 
-// Factory Functions
-function A_School_Class(_Name, _Class, _Rollno){
+// Factory Functions is a function that is not a constructor or a class and returns a object.Its not used with new keyword or we dont create a empty-object-{} of ths function
+function A_School_Clas(_Name, _Class, _Rollno){
     return{
         Name:_Name,    
         Class:_Class,
