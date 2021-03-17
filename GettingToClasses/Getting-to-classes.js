@@ -1,7 +1,22 @@
-// An object can thought of as a dictionary in python
+// An object can thought of as a dictionary in python i.e key value pairs
+
+// Factory Functions
+function A_School_Class(_Name, _Class, _Rollno){
+    return{
+        Name:_Name,    
+        Class:_Class,
+        Rollno:_Rollno,
+        discription: function(){
+            console.log(`The name of student is ${_Name} and the class is ${_Class} and roll-no is ${_Rollno}`)
+        }
+    }
+}
+
+
+// Constructor Function 
 class A_School_Class {
     constructor(_name, _class, _rollno) { //a constructor gets called when you declare an object using the new keyword
-            this.name = _name;
+            this.name = _name; // properties
             this.class = _class;
             this.rollno = _rollno;
         }
