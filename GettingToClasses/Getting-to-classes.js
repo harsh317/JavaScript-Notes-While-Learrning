@@ -1,3 +1,4 @@
+// An object can thought of as a dictionary in python
 class A_School_Class {
     constructor(_name, _class, _rollno) { //a constructor gets called when you declare an object using the new keyword
             this.name = _name;
