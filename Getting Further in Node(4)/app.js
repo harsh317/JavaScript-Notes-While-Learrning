@@ -138,4 +138,31 @@ When reading a very large file with a normal readFile method it gives an range e
 //     console.log(chunk);
 // })
 
+// const readStream = fs.createReadStream('./example.txt', 'utf8');
+// const writeStream = fs.createWriteStream('./example2.txt');
+// readStream.on('data', (chunk) => { // On the data event, 
+//     writeStream.write(chunk); //      write all the chunks to example.txt
+// })
+
+// const readStream = fs.createReadStream('./example.txt', 'utf8');
+// const writeStream = fs.createWriteStream('./example2.txt');
+// readStream.pipe(writeStream); // Shorter version of above
+
+const zlib = require('zlib');. // this module allow compression and decompression of files
+/*
+const gzip = zlib.createGzip(); // gzib helps to manipulate that chunks of data i.e convert it to a  zip
+
+const readStream = fs.createReadStream('./example.txt', 'utf8');
+const writeStream = fs.createWriteStream('./example2.txt.gz');
+readStream.pipe(gzip).pipe(writeStream); // Here it will compress it and then it will write it to the writestream
+*/
+
+/*
+const unzip = zlib.createGunzip(); // Helps to unzip
+const readStream = fs.createReadStream('./example2.txt.gz'); // Get the readStream of zipped file
+const writeStream = fs.createWriteStream('./uncompressed.txt'); // FGEt the writeStream with the name of uncompressed.txt
+readStream.pipe(unzip).pipe(writeStream); // manipulate the chunks of uncompressed.txt.gz to a txt file
+*/
+
 //                    I am following https://www.youtube.com/watch?v=RLtyhwFtXQA tutorial                                  //
+
